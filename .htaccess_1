@@ -1,0 +1,4 @@
+ErrorDocument 404 http://swayspa.com
+#All Rewrite rules 
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule    ^appointments/?$    #Appointment    [NC,L]

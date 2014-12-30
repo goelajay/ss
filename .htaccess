@@ -1,0 +1,20 @@
+ErrorDocument 404 http://swayspa.com
+#All Rewrite rules 
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule     Facebook    https://www.facebook.com/SwaySpa
+RewriteRule     Twitter     http://twitter.com/swayspa
+RewriteRule     Google+     http://plus.google.com/+SwaySpa
+RewriteRule     Yelp        http://www.yelp.com/biz/sway-spa-boston
+#RewriteRule     FacebookReviews    https://www.facebook.com/SwaySpa/reviews?ref=page_internal
+#RewriteRule     TwitterReviews     https://twitter.com/search?f=realtime&q=%23SwaySpaReview&src=typd
+#RewriteRule     Google+Reviews     https://plus.google.com/+Swayspa/about?review=1
+#RewriteRule     YelpReviews        http://www.yelp.com/biz/sway-spa-boston
+RewriteRule     specials        http://www.swayspa.com/#Specials
+RewriteRule     services        http://www.swayspa.com/#Services
+RewriteRule     skinCare        http://www.swayspa.com/#SkinCare
+RewriteRule     waxing        http://www.swayspa.com/#Waxing
+RewriteRule     massage        http://www.swayspa.com/#Massage
+RewriteRule     nails        http://www.swayspa.com/#Nails
+RewriteRule     contact        http://www.swayspa.com/#Contact
+RewriteRule     gifts        http://www.swayspa.com/#Gifts
+#RewriteRule    ^appointments/?$    http://swayspa.com#Appointments    [NC,L]
